@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 18px;
+  }
+  body {
+    @apply antialiased;
+    background-color: #FAF8F6;
+    color: #4A3728;
+  }
+}

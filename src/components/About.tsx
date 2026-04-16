@@ -15,7 +15,7 @@ export default function About() {
           className="font-display text-4xl md:text-5xl font-semibold text-brown mb-8 text-center"
         >
           {t.about.title}
-        </motion.h2>
+        </motion.h2> 
         <motion.div 
           initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}

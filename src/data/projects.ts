@@ -51,8 +51,12 @@ export const projects: Project[] = [
     id: 'msc-amoblamientos',
     title: 'MSC Amoblamientos',
     description: {
-      es: 'E-commerce de muebles con autenticación Auth0 e integración MercadoPago.',
-      en: 'Furniture e-commerce with Auth0 authentication and Mercado Pago integration.',
+      es: 'Plataforma e-commerce (Full Stack)\n\nTienda online de muebles con autenticación e integración de pagos.',
+      en: 'E-commerce Platform (Full Stack)\n\nOnline furniture store with authentication and payment integration.',
+    },
+    longDescription: {
+      es: 'Desarrollo de aplicación e-commerce full-stack.\nConstruí APIs REST con Node.js y Express.\nImplementé autenticación con Auth0.\nIntegré MercadoPago para pagos online.\nDiseñé la base de datos relacional con PostgreSQL.\nDesarrollé una UI responsive con React.',
+      en: 'Developed full-stack e-commerce application.\nBuilt REST APIs using Node.js and Express.\nImplemented authentication with Auth0.\nIntegrated MercadoPago for online payments.\nDesigned relational database with PostgreSQL.\nBuilt responsive UI using React.',
     },
     image: '/projects/msc-3.png',
     images: ['/projects/msc.png', '/projects/msc-2.png', '/projects/msc-3.png'],
@@ -63,8 +67,12 @@ export const projects: Project[] = [
     id: 'coming-out',
     title: 'Coming Out? App',
     description: {
-      es: 'Aplicación móvil desarrollada con Flutter.',
-      en: 'Mobile app built with Flutter.',
+      es: 'App móvil (Flutter)\n\nAplicación móvil multiplataforma desarrollada con Flutter.',
+      en: 'Mobile App (Flutter)\n\nCross-platform mobile application built with Flutter.',
+    },
+    longDescription: {
+      es: 'Desarrollo de app móvil con Flutter y Dart.\nConstruí componentes de UI reutilizables y layouts responsive.\nIntegré APIs externas y gestioné el estado de la aplicación.\nPrioricé la experiencia de usuario y la optimización del rendimiento.',
+      en: 'Developed mobile application using Flutter and Dart.\nBuilt reusable UI components and responsive layouts.\nIntegrated external APIs and managed application state.\nFocused on user experience and performance optimization.',
     },
     image: '/projects/coming-out.jpg',
     tags: ['Flutter', 'Dart'],
@@ -74,8 +82,12 @@ export const projects: Project[] = [
     id: 'lambda-solution',
     title: 'Lambda Solution',
     description: {
-      es: 'Desarrollo frontend de aplicaciones web y móviles para múltiples clientes.',
-      en: 'Frontend development for web and mobile apps for multiple clients.',
+      es: 'Desarrollo frontend (proyectos para clientes)\n\nAplicaciones web y móviles para múltiples clientes.',
+      en: 'Frontend Developer (Client Projects)\n\nWeb and mobile applications for multiple clients.',
+    },
+    longDescription: {
+      es: 'Desarrollo frontend con React y Flutter.\nConstrucción de componentes reutilizables y una arquitectura de UI escalable.\nIntegración de APIs y gestión de flujo de datos entre aplicaciones.\nColaboración en equipos Agile para entregar funcionalidades listas para producción.',
+      en: 'Developed frontend applications using React and Flutter.\nBuilt reusable components and scalable UI architecture.\nIntegrated APIs and handled data flow across applications.\nCollaborated in Agile teams to deliver production-ready features.',
     },
     image: '/projects/lambda-1.png',
     images: ['/projects/lambda-1.png', '/projects/lambda-2.png', '/projects/lambda-3.png'],

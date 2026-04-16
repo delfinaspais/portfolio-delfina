@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   title: 'Delfina Spais | Full-Stack Developer',
   description:
     'Delfina Spais — Full-Stack Developer (React, Next.js, NestJS, Flutter). Desarrolladora full-stack; portafolio bilingüe / bilingual portfolio.',
+  icons: {
+    icon: [{ url: '/projects/logo.svg', type: 'image/svg+xml' }],
+    shortcut: '/projects/logo.svg',
+    apple: '/projects/logo.svg',
+  },
 }
 
 export default function RootLayout({

@@ -145,11 +145,11 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             <h2 className="font-display text-3xl md:text-4xl font-semibold text-brown mb-4">
               {project.title}
             </h2>
-            <p className="text-brown-light text-lg mb-4">
+            <p className="text-brown-light text-lg mb-4 whitespace-pre-line">
               {pickLocalized(project.description, language)}
             </p>
             {project.longDescription && (
-              <p className="text-brown-muted text-base leading-relaxed mb-6">
+              <p className="text-brown-muted text-base leading-relaxed mb-6 whitespace-pre-line">
                 {pickLocalized(project.longDescription, language)}
               </p>
             )}

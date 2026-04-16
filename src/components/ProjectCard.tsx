@@ -54,7 +54,7 @@ export default function ProjectCard({ project, index, onClick }: ProjectCardProp
         <h3 className="font-display text-2xl font-semibold text-brown mb-2 group-hover:text-brown-dark transition-colors">
           {project.title}
         </h3>
-        <p className="text-brown-light text-base mb-4 line-clamp-2">
+        <p className="text-brown-light text-base mb-4 line-clamp-2 whitespace-pre-line">
           {pickLocalized(project.description, language)}
         </p>
         <div className="flex flex-wrap gap-2 mb-4">

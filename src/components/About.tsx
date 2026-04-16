@@ -16,7 +16,7 @@ export default function About() {
         >
           {t.about.title}
         </motion.h2>
-        <motion.div
+        <motion.div 
           initial={{ opacity: 1, y: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

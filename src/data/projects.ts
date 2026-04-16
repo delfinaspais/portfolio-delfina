@@ -67,15 +67,16 @@ export const projects: Project[] = [
     id: 'coming-out',
     title: 'Coming Out? App',
     description: {
-      es: 'App móvil (Flutter)\n\nAplicación móvil multiplataforma desarrollada con Flutter.',
-      en: 'Mobile App (Flutter)\n\nCross-platform mobile application built with Flutter.',
+      es: 'App móvil para descubrir espacios LGBTQ+ friendly y compartir experiencias de la comunidad.',
+      en: 'Mobile app to discover LGBTQ+ friendly places and share community experiences.',
     },
     longDescription: {
-      es: 'Desarrollo de app móvil con Flutter y Dart.\nConstruí componentes de UI reutilizables y layouts responsive.\nIntegré APIs externas y gestioné el estado de la aplicación.\nPrioricé la experiencia de usuario y la optimización del rendimiento.',
-      en: 'Developed mobile application using Flutter and Dart.\nBuilt reusable UI components and responsive layouts.\nIntegrated external APIs and managed application state.\nFocused on user experience and performance optimization.',
+      es: 'Coming Out? es una aplicación móvil pensada para ayudar a descubrir espacios seguros y LGBTQ+ friendly a través de recomendaciones impulsadas por la comunidad.\n\nDesarrollé la app multiplataforma con Flutter y Dart.\nDiseñé funciones para guardar lugares favoritos y armar listas personalizadas.\nImplementé contenido generado por usuarios: reseñas, valoraciones y experiencias compartidas.\nConstruí un sistema de filtros para explorar ubicaciones por categoría, vibra e identidad.\nPuse el foco en una experiencia inclusiva y centrada en las personas usuarias.\nPrioricé usabilidad, accesibilidad y navegación intuitiva.\n\nImpacto\n\n👉 Ayuda a encontrar espacios seguros y a sentir más confianza al explorar lugares nuevos.\n👉 Fomenta recomendaciones de la comunidad y un descubrimiento basado en la confianza.',
+      en: 'Coming Out? is a mobile application designed to help users discover safe and LGBTQ+ friendly spaces through community-driven recommendations.\n\nDeveloped cross-platform mobile app using Flutter and Dart.\nDesigned features for saving favorite places and building personalized lists.\nImplemented user-generated content: reviews, ratings, and shared experiences.\nBuilt filtering system to explore locations by category, vibe, and identity.\nFocused on creating an inclusive and user-centered experience.\nPrioritized usability, accessibility, and intuitive navigation.\n\nImpact\n\n👉 Helps users find safe spaces and feel more confident exploring new places.\n👉 Encourages community-driven recommendations and trust-based discovery.',
     },
-    image: '/projects/coming-out.jpg',
-    tags: ['Flutter', 'Dart'],
+    image: '/projects/coming-1.jpg',
+    images: ['/projects/coming-1.jpg', '/projects/coming-2.jpg', '/projects/coming-3.jpg', '/projects/coming-4.jpg'],
+    tags: ['Flutter', 'Dart', 'Mobile', 'UX', 'APIs'],
     featured: false,
   },
   {
